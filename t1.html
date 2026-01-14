@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBS</title>
+    <link rel="stylesheet" href="t1.css">
+     <link rel="shortcut icon" href="LOGO.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="data:image/png;base64,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"
+                alt="Logo" height="50">
+            <span> Global Best Service</span>
+        </div>
+        <div class="search-bar">
+            <span class="search-icon">&#128269;</span>
+            <input type="text" placeholder="Search for services, products..." id="mainSearch">
+            <button type="button">Search</button>
+        </div>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#order">Order</a>
+            <span class="cart-icon" id="cartIcon" title="View Cart">
+                🛒 <span id="cartCount">0</span>
+            </span>
+            <span class="profile-icon" id="profileIcon" title="Profile">🙎‍♂️</span>
+        </nav>
+    </header>
+    <!-- Cart Modal -->
+    <div id="cartModal" class="cart-modal" style="display:none;">
+        <div class="cart-modal-content">
+            <span class="close" id="closeCart">&times;</span>
+            <h2>Your Cart</h2>
+            <ul id="cartItems"></ul>
+            <button id="checkoutBtn">Checkout</button>
+        </div>
+    </div>
+    <!-- Profile/Login Modal -->
+    <div id="profileModal" class="profile-modal" style="display:none;">
+        <div class="profile-modal-content">
+            <span class="close" id="closeProfile">&times;</span>
+            <h2>Login / Profile</h2>
+            <form id="profileForm">
+                <label for="profileName">Name:</label>
+                <input type="text" id="profileName" name="profileName" required>
+                <label for="profileEmail">Email:</label>
+                <input type="email" id="profileEmail" name="profileEmail" required>
+                <label for="profileAvatar">Avatar:</label>
+                <input type="file" id="profileAvatar" name="profileAvatar" accept="image/*">
+                <div id="avatarPreview"></div>
+                <button type="submit">Save Profile</button>
+            </form>
+        </div>
+    </div>
+    <main>
+        <div class="main-logo-wrapper">
+            <img src="LOGO.jpg" alt="GBS Brand Logo" class="main-logo">
+        </div>
+        <section id="services">
+            <h2>Featured Stitching Services</h2>
+            <div class="card-grid">
+                <div class="service-card" data-service="shirt"
+                    data-details="Premium shirt stitching with custom fit, fabric selection, and style options. Includes collar, cuff, and button choices."
+                    data-imgs="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80,https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80">
+                    <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80"
+                        alt="Shirt Stitching">
+                    <h3>Custom Shirt Stitching</h3>
+                    <p>Perfect fit, premium fabrics, quick delivery.</p>
+                    <button class="order-btn">Order Now</button>
+                    <button class="cart-btn">Add to Cart</button>
+                    <button class="details-btn">Details</button>
+                </div>
+                <div class="service-card" data-service="dress"
+                    data-details="Dress alterations for all styles, including resizing, hemming, and custom adjustments. Expert finishing and quick turnaround."
+                    data-imgs="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=400&q=80,https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80">
+                    <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=400&q=80"
+                        alt="Dress Alterations">
+                    <h3>Dress Alterations</h3>
+                    <p>Expert tailoring for all dress types.</p>
+                    <button class="order-btn">Order Now</button>
+                    <button class="cart-btn">Add to Cart</button>
+                    <button class="details-btn">Details</button>
+                </div>
+                <div class="service-card" data-service="pant"
+                    data-details="Custom pant and trouser stitching with style, fit, and fabric options. Includes pocket, pleat, and length customization."
+                    data-imgs="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80,https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80">
+                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80"
+                        alt="Pant Stitching">
+                    <h3>Pant & Trouser Stitching</h3>
+                    <p>Custom styles and perfect measurements.</p>
+                    <button class="order-btn">Order Now</button>
+                    <button class="cart-btn">Add to Cart</button>
+                    <button class="details-btn">Details</button>
+                </div>
+                <div class="service-card" data-service="embroidery"
+                    data-details="Beautiful embroidery work for all garments. Choose from a variety of patterns, colors, and thread types. Hand and machine embroidery available."
+                    data-imgs="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80,https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80">
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80"
+                        alt="Embroidery">
+                    <h3>Embroidery Work</h3>
+                    <p>Beautiful designs for all garments.</p>
+                    <button class="order-btn">Order Now</button>
+                    <button class="cart-btn">Add to Cart</button>
+                    <button class="details-btn">Details</button>
+                </div>
+            </div>
+        </section>
+        <section id="order">
+            <h2>Place Your Order</h2>
+            <form class="order-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" rows="2" required></textarea>
+                    <span class="error" id="addressError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service:</label>
+                    <select id="service" name="service" required>
+                        <option value="shirt">Custom Shirt Stitching</option>
+                        <option value="dress">Dress Alterations</option>
+                        <option value="pant">Pant & Trouser Stitching</option>
+                        <option value="embroidery">Embroidery Work</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="clothType">Cloth Type:</label>
+                    <select id="clothType" name="clothType" required>
+                        <option value="cotton">Cotton</option>
+                        <option value="silk">Silk</option>
+                        <option value="linen">Linen</option>
+                        <option value="denim">Denim</option>
+                        <option value="synthetic">Synthetic</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="fabric">Fabric:</label>
+                    <input type="text" id="fabric" name="fabric" placeholder="e.g. Premium Egyptian Cotton" required>
+                    <span class="error" id="fabricError"></span>
+                </div>
+                <div class="form-group" id="measurementFields" style="display:none;">
+                    <label>Measurements:</label>
+                    <div id="measurementInputs"></div>
+                </div>
+                <div class="form-group">
+                    <label for="details">Details:</label>
+                    <textarea id="details" name="details" rows="4" required></textarea>
+                    <span class="error" id="detailsError"></span>
+                </div>
+                <button type="submit">Submit Order</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Global Best Service @ 2025. All Rights Reserved.</p>
+    </footer>
+    <!-- Service Details Modal -->
+    <div id="detailsModal" class="details-modal" style="display:none;">
+        <div class="details-modal-content">
+            <span class="close" id="closeDetails">&times;</span>
+            <h2 id="detailsTitle"></h2>
+            <p id="detailsDesc"></p>
+            <div id="detailsImgs" class="details-imgs"></div>
+        </div>
+    </div>
+    <script src="t1.js"></script>
+    <script>
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+
+
+</html>
+
